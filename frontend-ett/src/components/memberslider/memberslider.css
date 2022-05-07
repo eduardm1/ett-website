@@ -1,0 +1,48 @@
+.memberswiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  max-width: 1300px;
+}
+
+.memberswiper-slide {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  
+
+  font-size: 15px;
+  /* background: #fff; */
+  font-family: var(--font-family);
+  color: white;
+}
+
+.memberswiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  margin: auto;
+  border-image: url("../../assets/grid.png") 27 23 / 50px 30px / 1rem round space;
+
+  filter: drop-shadow(16px 16px 20px blue);
+}
+
+.memberswiper-button-next, .memberswiper-button-prev {
+  top: 45% !important;
+}
+
+.memberswiper-slide h2 {
+  color: white !important;
+  font-family: var(--font-family);
+  font-size: 24px;
+  padding-top: 2rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,1 @@
+This directory is used to put a reusable React components.

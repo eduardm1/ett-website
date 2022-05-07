@@ -1,0 +1,1 @@
+This directory is created as a compilation of multiple components into a single larger one to display a complete page view.

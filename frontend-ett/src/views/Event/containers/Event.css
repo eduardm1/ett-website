@@ -1,0 +1,143 @@
+.event img {
+    /* max-width: 40%;
+    height: auto; */
+    width:25vw;
+    height: 25vw;
+    margin: 5vw;
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+
+.event__box{
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+.event .event__content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+    font-family: var(--font-family);
+    width: 60%;
+
+
+}
+
+.event__title{
+    color:var(--banana-color);
+    margin-top:0px;
+    font-size: 35px;
+}
+
+.event p {
+    /* font-size: 100%; */
+    /* white-space: normal; */
+    /* word-break: keep-all; */
+    /* font-size: 2vm; */
+
+}
+
+
+.event__text {
+    /* margin: 5vh; */
+    margin: 5vh 5vh;
+    margin-left: 0;
+    white-space: normal;
+    font-size: larger;
+    /* width:80%; */
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+    /* ipad */
+    .event img {
+        /* margin-left: 50vh; */
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .event__content{
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 10vh; */
+    }
+}
+
+
+@media screen and (max-width: 970px) {
+    /* surface pro7 */
+
+    .event {
+        margin-bottom: 5vh;
+    }
+
+    .event img {
+        /* margin-left: 50vh; */
+        /* margin-right: 5vh; */
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .event {
+
+        margin-left: 0vh;
+        margin-bottom: 10vh;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .event__content {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 0vh;
+        margin-bottom: 10vh;
+    }
+
+    .event img {
+        margin:0;
+        margin-bottom: 5vh;
+        width:50vw;
+        height: 50vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* iphone */
+    .event img {
+        /* margin-left: 65vh; */
+        margin-top: 0;
+
+    }
+
+    .event__content {
+
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 0vh;
+        margin-right:0;
+        margin-bottom: 10vh;
+        color: white;
+    }
+
+    .event h2 {
+        font-size: large;
+        color: var(--banana-color);
+        margin-bottom: 1vh;
+    }
+
+    .event__dna {
+        font-size: small;
+    }
+
+    .event__author {
+        font-size: small;
+    }
+
+    .discover_more {
+        font-size: small;
+    }
+}

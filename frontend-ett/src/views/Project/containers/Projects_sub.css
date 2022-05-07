@@ -1,0 +1,276 @@
+:root {
+    --white-color: #fff;
+    --banana-color: #ffcc07;
+    --nearblack-color: #101425;
+    --darkblue-color: #23286b;
+    --cobaltblue-color: #1f499a;
+    --brightblue-color: #0000ff;
+}
+
+.project__sub__dna h1{
+    color:#ffcc07;
+    font-size: 40px;
+    margin-bottom: 1vh;
+}
+
+.project__head h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-size: 7vw; */
+
+}
+
+.project__sub__head {
+  margin-left: 15%;
+}
+
+.project__sub__body {
+    /* width:90%; */
+    display: flex;
+    justify-content: center;
+}
+
+.project__sub__body img {
+
+       max-width: 70%;
+       height: auto;
+
+    margin:10vh 0;
+
+}
+
+.ett__project__back-button {
+  margin-left: 18% !important;
+}
+
+.project__sub__img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.project__sub__body .project__sub_text {
+    /* margin-left:20vh;
+    margin-top:10vh; */
+    width: 70%;
+}
+
+.project__sub__dna {
+    text-align: center;
+}
+
+.project__sub__body .project__sub_text .project__sub__img {
+    /* text-align: center; */
+}
+
+.project__sub__body .project__sub_text h2 {
+    color: var(--banana-color);
+    margin-bottom: 5vh;
+}
+
+.project__sub__body .project__sub_text p {
+    color: var(--white-color);
+
+    font-size: large;
+}
+
+.project__sub__texttt {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.project_content .other__posts h1 {
+    /* font-size: 10vw; */
+    display: flex;
+    align-items: center;
+    margin: 10vh;
+
+}
+
+.project__other__post {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1025px) {
+    .project__sub__img img{
+
+        max-width: 50%;
+        height: auto;
+    }
+
+
+    
+    .project__sub__body p {
+        margin-top: 1vh;
+        font-size: larger;
+    }
+
+    .other__posts {
+      margin-left: 0 !important;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 912px){
+    /* surface pro7 */
+    .project__sub__img img{
+        /* height: 50vh;
+        width: 50vh; */
+        max-width: 50%;
+        height: auto;
+    }
+
+    .project__sub__body p {
+        margin-top: 1vh;
+        margin:0;
+        font-size: larger;
+    }
+
+    .other__posts {
+      margin-left: 0 !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    /* iphone */
+    .project__sub__body {
+        margin: 0vw;
+    }
+
+    .project__sub__body h1 {
+        margin: 5vh;
+    }
+
+    .project__sub__body p {
+        margin: 0vh;
+    }
+
+    .project__sub__img img {
+        /* height: 50vh;
+        width: 50vh; */
+        max-width: 80%;
+        height: auto;
+    }
+
+    .css-6a0mph{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project__other__post {
+        display: inline-block; 
+        vertical-align: middle;
+    }
+
+
+    /* .event__post {
+        display: inline-block; 
+        vertical-align: middle;
+    } */
+
+    .project__sub__period .period{
+        white-space:nowrap;
+        margin:0;
+    }
+
+    .other__posts {
+      margin-left: 0 !important;
+    }
+}
+
+
+@media screen and (max-width:597px) {
+    /* surface duo */
+    .project__sub__img img {
+        max-width: 80%;
+        height: auto;
+        
+    }
+
+    .project__sub__period {
+        /* margin: 5vh;
+        margin-top: 1vh; */
+        font-size: smaller;
+        word-break: keep-all;
+
+    }
+    .project__sub__period .period{
+        font-size: 15px;
+        white-space:nowrap;
+        margin:0;
+    }
+
+    .other__posts {
+      margin-left: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    /* galaxy fold */
+    .project__sub__body {
+        margin: 0vw;
+        margin-top:0;
+    }
+
+    .project__sub__body h1 {
+        margin: 5vh;
+        margin-bottom: 1vh;
+    }
+
+    .project__sub__body p {
+        margin: 0vh;
+        margin-top: 1vh;
+    }
+
+    .project__sub__img img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .project__head h1 {
+        margin-left: 0;
+        font-size: 10vw;
+        display: flex;
+        align-items: center;
+    }
+
+        /* .other__posts h1{
+        font-size: 10vw;
+
+    } */
+
+    .project__sub__period .period{
+        font-size: small;
+        white-space:nowrap;
+        margin:0;
+    }
+    
+    .other__posts {
+      margin-left: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 281px) {
+    .project__sub__period .period{
+        font-size: 11px;
+        white-space:nowrap;
+        margin:0;
+    }
+
+    .other__posts {
+      margin-left: 0 !important;
+    }
+}

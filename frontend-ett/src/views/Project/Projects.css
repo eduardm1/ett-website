@@ -1,0 +1,75 @@
+.project__featured__body{
+}
+
+.project__body{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+}
+
+.project__body img{
+    width:12vw;
+    /* height:20vw; */
+}
+
+.project__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.projects {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media screen and (max-width: 1050px) {
+    /* ipad */
+    
+    .project__text{
+        margin:0;
+    }
+    .project__content{
+        margin: 0 5vh;
+    }
+    .projects__all{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project__body{
+        display: inline-block; 
+        vertical-align: middle;
+    }
+
+
+    }
+    
+    @media screen and (max-width: 1024px) {
+
+    }
+    
+    @media screen and (max-width: 912px){
+        /* surface pro7 */
+
+    }
+    
+    @media screen and (max-width: 650px) {
+    
+        /* iphone */
+    
+    }
+    
+    @media screen and (max-width:540px) {
+        /* surface duo */
+    
+    }
+    
+    @media screen and (max-width: 490px) {
+    
+        /* galaxy fold */
+    
+    }

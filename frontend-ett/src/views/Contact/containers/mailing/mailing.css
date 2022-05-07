@@ -1,0 +1,195 @@
+.ett__mailing {
+  margin: auto;
+  max-width: 1600px;
+
+  padding-bottom: 0 !important;
+}
+
+.ett__mailing-heading h1 {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.ett__mailing-description {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  text-align: justify;
+}
+
+.ett__mailing-form {
+  /* border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px; */
+  margin: auto;
+  width: 84%;
+}
+
+label {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  resize: vertical;
+
+  background: transparent;
+  border-width: 0 0 2px;
+  outline: none;
+
+  color: white;
+  font-family: var(--font-family);
+}
+
+input:focus {
+  border-color: var(--color-banana);
+}
+
+textarea:focus {
+  border-color: var(--color-banana);
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+
+/* input[type=submit] {
+  background-color: var(--color-bright-blue);
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family);
+} */
+
+/* input[type=submit]:hover {
+  transition: 1s all;
+  background-color: var(--color-banana);
+} */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+  font-size: 15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+
+.swal-modal {
+  background-color: rgba(4, 0, 255, 0.5) !important;
+  border: 3px solid var(--color-banana) !important;
+}
+
+.swal-title {
+  font-family: var(--font-family);
+  color: white !important;
+}
+
+.swal-text {
+  font-family: var(--font-family);
+  font-size: small !important;
+  color: white !important;
+}
+
+.swal-button {
+  border: 3px solid var(--color-banana) !important;
+  transition: all 1s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .ett__mailing-heading h1 {
+    font-size: 30px;
+  } 
+
+  .ett__mailing-description p {
+    line-height: 30px;
+    font-size: large;
+  }
+
+  .send-button {
+    text-align: center;
+  }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .ett__mailing-heading h1 {
+    font-size: 30px;
+  } 
+
+  .ett__mailing-description p {
+    line-height: 30px;
+    font-size: large;
+  }
+
+  .send-button {
+    text-align: center;
+  }
+}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ett__mailing-heading h1 {
+    font-size: 35px;
+  } 
+
+  .ett__mailing-description p {
+    line-height: 30px;
+    font-size: large;
+  }
+
+  .send-button {
+    text-align: center;
+  }
+}
+
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ett__mailing-heading h1 {
+    font-size: 40px;
+  } 
+
+  .ett__mailing-description p {
+    line-height: 30px;
+    font-size: large;
+    margin-left: 1%;
+  }
+
+  .send-button {
+    text-align: center;
+  }
+
+
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .send-button {
+    text-align: right;
+  }
+}
+

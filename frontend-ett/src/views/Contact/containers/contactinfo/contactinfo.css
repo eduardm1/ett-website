@@ -1,0 +1,262 @@
+
+.ett__contactinfo {
+  margin: auto;
+  max-width: 1600px;
+  padding-bottom: 0 !important;
+
+}
+
+.ett__contactinfo h1 {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.ett__contactinfo_wrapper {
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  justify-content: center;
+  flex: 1;
+  margin-bottom: 0 !important;
+}
+
+.ett__contactinfo-left {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-family);
+  padding-right: 20%;
+}
+
+.ett__contactinfo-left h2 {
+  text-align: center;
+  justify-content: center;
+  color: var(--color-banana);
+  font-family: var(--font-family);
+}
+
+.ett__contactinfo-left_item {
+  padding-bottom: 15%;
+}
+
+.ett__contactinfo-right {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-family);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.ett__contactinfo-right_socialheader {
+  padding-bottom: 10%;
+  font-size: 20px;
+}
+
+.ett__contactinfo-right_socialheader span {
+  color: var(--color-banana);
+}
+
+.ett__contactinfo-right_social {
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+
+.ett__contactinfo-right_social-top {
+  padding-bottom: 10%;
+}
+
+.ett__contactinfo-right_social a {
+  padding: 0 4rem;
+}
+
+.ett__contactinfo-right_social a:hover {
+  transition: all 1s;
+  color: var(--color-banana);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .ett__contactinfo_header h1 {
+    font-size: 26px;
+  } 
+
+  .ett__contactinfo_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ett__contactinfo-left {
+    padding-right: 0;
+    margin-bottom: 10%;
+  }
+
+  .ett__contactinfo-left_item {
+    font-size: 12px;
+  }
+
+  .ett__contactinfo-right_socialheader {
+    font-size: 13px;
+  }
+
+  .ett__contactinfo-right_social {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ett__contactinfo-right_social-top,
+  .ett__contactinfo-right_social-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 0;
+    line-height: 100px;
+  }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .ett__contactinfo_header h1 {
+    font-size: 28px;
+  } 
+
+  .ett__contactinfo_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ett__contactinfo-left {
+    padding-right: 0;
+    margin-bottom: 10%;
+  }
+
+  .ett__contactinfo-left_item {
+    font-size: 15px;
+  }
+
+  .ett__contactinfo-right_socialheader {
+    font-size: 17px;
+  }
+
+  .ett__contactinfo-right_social {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ett__contactinfo-right_social-top,
+  .ett__contactinfo-right_social-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 0;
+    line-height: 100px;
+  }
+}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ett__contactinfo_header h1 {
+    font-size: 30px;
+  } 
+}
+
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ett__contactinfo_header h1 {
+    font-size: 35px;
+  } 
+
+  .ett__contactinfo-left_item {
+    font-size: 18px;
+  }
+
+  .ett__contactinfo-right_socialheader {
+    font-size: 20px;
+  }
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .ett__contactinfo h1 {
+    font-family: var(--font-family);
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  
+  .ett__contactinfo_wrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 0 !important;
+  }
+  
+  .ett__contactinfo-left {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-family);
+    padding-right: 20%;
+  }
+  
+  .ett__contactinfo-left h2 {
+    text-align: center;
+    justify-content: center;
+    color: var(--color-banana);
+    font-family: var(--font-family);
+  }
+  
+  .ett__contactinfo-left_item {
+    padding-bottom: 15%;
+  }
+  
+  .ett__contactinfo-right {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-family);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  
+  .ett__contactinfo-right_socialheader {
+    padding-bottom: 10%;
+    font-size: 20px;
+  }
+  
+  .ett__contactinfo-right_socialheader span {
+    color: var(--color-banana);
+  }
+  
+  .ett__contactinfo-right_social {
+    /* justify-content: space-between; */
+    justify-content: space-around;
+  }
+  
+  .ett__contactinfo-right_social-top {
+    padding-bottom: 10%;
+  }
+  
+  .ett__contactinfo-right_social a {
+    padding: 0 4rem;
+  }
+  
+  .ett__contactinfo-right_social a:hover {
+    transition: all 1s;
+    color: var(--color-banana);
+  }
+}

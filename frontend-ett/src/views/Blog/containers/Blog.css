@@ -1,0 +1,241 @@
+:root{
+    --white-color: #fff;
+    --banana-color: #ffcc07;
+    --nearblack-color: #101425;
+    --darkblue-color:#23286b;
+    --cobaltblue-color:#1f499a;
+    --brightblue-color:#0000ff;
+}
+
+.blog .blog__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    font-family: var(--font-family);
+
+}
+
+
+.blog img {
+    /* max-width: 25%;
+    height: auto; */
+    margin:5vw;
+    margin-left:0;
+    width:25vw;
+    height: 25vw;
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+
+
+
+/* .blog img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+  } */
+
+
+
+.blog__box{
+    color:white;
+    width:30vw;
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+
+
+.blog__title{
+    color:var(--banana-color);
+    margin-top:0px;
+    font-size: 35px;
+}
+
+.blog__dna{
+    display: flex;
+    align-items: center;
+}
+
+.blog__dna p{
+    margin-left:1vh;
+}
+
+.blog__date{
+    margin-right: 2vh;
+}
+.blog__text{
+    margin:5vh;
+    margin-left:0;
+    font-size: larger;
+}
+
+.discover_more{
+    color:var(--banana-color);
+    font-size: large;
+}
+
+.discover_more:hover{
+    text-decoration: underline;
+    color:var(--white-color);
+    transition: all 1s;
+}
+
+
+
+
+
+  
+  .ett__brand-heading {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 21px;
+    flex-direction: row;
+    align-items: flex-end;
+    letter-spacing: 5px;
+  } 
+  
+  .ett__brand-logo {
+    flex: 1;
+    max-width: 200px;
+    min-width: 120px;
+    margin: 1rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .ett__brand section__padding{
+      padding-bottom:0px;
+  }
+/* .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid var(--color-banana);
+    border-bottom: 25px solid transparent;
+    float: left;
+    margin-right: 2rem;
+  } */
+
+.blog__head{
+    display: flex;
+    align-items: center;
+    padding:0px;
+}
+
+  
+@media screen and (max-width: 1281px) {
+    /* ipad */
+    .blog__title{
+        font-size: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 913px){
+    /* surface pro7 */
+
+
+    .blog img{
+        width: 50vw;
+        height: 50vw;
+        margin:0;
+        margin-bottom: 5vh;
+
+    }
+    .blog{
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog__box{
+        width: 50vw;
+    }
+
+    .blog__content{
+        
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+/* iphone */
+.blog img{
+    /* margin-left: 65vh; */
+}
+}
+
+@media screen and (max-width:550px) {
+    /* surface duo */
+    .blog img{
+        /* margin-left: 20vw; */
+    }
+}
+
+
+
+@media screen and (max-width: 415px) {
+    /* iphone xr*/
+    .blog{
+        margin-bottom: 5vh;
+    }
+    .blog__img{
+        /* margin-left:30vw; */
+    }
+    .blog__box {
+        font-size: smaller;
+        /* width:60vh; */
+
+    }
+
+    .blog__title{
+        font-size: medium;
+    }
+
+    .blog__dna{
+        font-size: smaller;
+    }
+        .blog img{
+            /* margin-left: 75vh;
+            margin-right: 2vh; */
+        }
+    }
+
+    @media screen and (max-width: 413px) {
+        /* galaxy fold */
+            .blog img{
+                /* margin-left: 78vh;
+                margin-right: 2vh; */
+            }
+        }
+
+@media screen and (max-width: 376px) {
+            /* galaxy fold */
+            /* .blog{
+                display: flex;
+                justify-content: center;
+            }
+
+            .blog__head{
+                font-size: medium;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .blog__content{
+                display: inline-block; 
+                vertical-align: middle;
+                margin-left:75vh;
+                margin-bottom: 10vh;
+            }
+        
+            .blog img{
+                margin:0vh;
+            } */
+
+}

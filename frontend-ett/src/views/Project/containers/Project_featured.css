@@ -1,0 +1,277 @@
+
+.project__featured__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1150px;
+}
+
+
+
+.project__featured img {
+    width: 50vh;
+    height: 50vh;
+    margin: 0vh;
+    margin-right: 10vh;
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+
+.project__featured__box {
+    color: white;
+    border-image: url("../../../assets/grid_border_only.png") 27 23 / 50px 30px / 1rem round space;
+
+}
+
+.project__featured {
+    margin-bottom: 20vh;
+    /* width:80%; */
+    display: flex;
+    /* justify-content: center; */
+    font-family: var(--font-family);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+
+.project__featured__title {
+    color: var(--banana-color);
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.project__featured__dna {
+    display: flex;
+    align-items: center;
+
+}
+
+.project__featured__dna p {
+    margin-left: 1vh;
+    /* font-size: larger; */
+}
+
+.project__featured__date {
+    margin-right: 2vh;
+}
+
+.project__featured__text {
+    /* margin: 5vh 5vh; */
+    margin-left:0;
+    font-size: larger;
+}
+
+.learn_more {
+    color: var(--banana-color);
+    font-size: large;
+}
+
+.learn_more:hover {
+    text-decoration: underline;
+    color: var(--white-color);
+    transition: all 1s;
+}
+
+
+/* .ett__brand {
+
+    justify-content: center;
+    align-items: flex-start;
+  
+    max-width: 1600px;
+    margin: auto;
+  
+    padding-top: 5px !important;
+  } */
+
+.ett__brand-heading {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 20px;
+    flex-direction: row;
+    align-items: flex-end;
+    letter-spacing: 5px;
+}
+
+.ett__brand-logo {
+    flex: 1;
+    max-width: 200px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ett__brand section__padding {
+    padding-bottom: 0px;
+}
+
+/* .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid var(--color-banana);
+    border-bottom: 25px solid transparent;
+    float: left;
+    margin-right: 2rem;
+  } */
+
+.project__featured__head {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.project__featured__head h1 {
+    margin-left: 1vh;
+}
+
+.BsFillCaretRightFill {
+    color: #ffcc07;
+    background-color: var(--banana-color);
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    /* ipad */
+    .project__featured img{
+        width: 40vw;
+        height: 40vw;
+        margin-right: 2vh;
+        }
+
+    .project__featured__box{
+        margin:0;
+    }
+    
+    .project__featured__content{
+        margin:0;
+    }
+
+    .project__featured__text{
+        margin:0;
+    }
+
+    .project__featured__content{
+        margin:0 2vh;
+    }
+
+    .project__featured{
+        /* margin:10vh 10vh; */
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 913px){
+    /* surface pro7 */
+
+    .project__featured{
+        margin-bottom: 5vh;
+    }
+    .project__featured img{
+        /* margin-left: 75vh; */
+        /* margin-right: 5vh; */
+        margin:0;
+        margin-bottom: 2vh;
+    }
+
+    .project__featured{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project__featured__content{
+        /* display: inline-block;
+        vertical-align: middle; */
+        display: flex;
+        flex-direction: column;
+        /* margin:0 2vh; */
+    }
+
+    .project__featured__text{
+        margin:0;
+        margin-top:2vh;
+        margin-bottom: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+/* iphone */
+.project__featured img{
+    /* margin-left: 65vh; */
+}
+
+
+
+}
+
+@media screen and (max-width:550px) {
+    /* surface duo */
+    .project__featured img{
+        /* margin-left: 60vh; */
+    }
+}
+
+
+
+@media screen and (max-width: 415px) {
+    /* iphone xr*/
+    .project__featured{
+        margin-bottom: 5vh;
+    }
+    
+    .project__featured__box {
+        font-size: smaller;
+    }
+
+    .project__featured__title{
+        font-size: medium;
+    }
+
+    .project__featured__dna{
+        font-size: smaller;
+    }
+        .project__featured img{
+            /* margin-left: 75vh; */
+            /* margin-right: 2vh; */
+        }
+    }
+
+    @media screen and (max-width: 413px) {
+        /* galaxy fold */
+            .project__featured img{
+                /* margin-left: 78vh; */
+                margin-right: 2vh;
+            }
+        }
+
+@media screen and (max-width: 376px) {
+            /* galaxy fold */
+            .project__featured{
+                display: flex;
+                justify-content: center;
+            }
+
+            .project__featured__head{
+                font-size: medium;
+                display: flex;
+                justify-content: center;
+                /* margin-left:0vh; */
+            }
+        
+
+}

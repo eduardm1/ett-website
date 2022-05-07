@@ -1,0 +1,258 @@
+:root {
+    --white-color: #fff;
+    --banana-color: #ffcc07;
+    --nearblack-color: #101425;
+    --darkblue-color: #23286b;
+    --cobaltblue-color: #1f499a;
+    --brightblue-color: #0000ff;
+}
+
+/* h1 {
+    color: white;
+} */
+
+.blog__body {
+    margin: 20vh;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: var(--font-family);
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog_sub__IND {
+    display: flex;
+    justify-content: center;
+}
+
+.blog__body__img {
+    text-align: center;
+}
+
+.blog__body__img img {
+    /* height: 80vh;
+    width: 80vh; */
+    /* margin-left:45vh; */
+    max-width: 50%;
+    height: auto;
+
+}
+
+
+.blog__sub__dna h1 {
+    margin: 0 10vh;
+    font-size: 40px;
+    color: var(--banana-color);
+}
+
+
+.blog__sub__dna {
+    text-align: center;
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+.blog__sub__dna p {
+    text-align: center;
+    margin-top:1vh;
+    margin-bottom: 5vh;
+}
+.blog__body p {
+    color: var(--white-color);
+    margin: 10vh;
+    margin-top: 10vh;
+    /* width: 80%; */
+    font-size: large;
+
+}
+
+
+.blog__head h1 {
+    margin-left: 0;
+    /* font-size: 7vh; */
+    display: flex;
+    align-items: center;
+}
+
+.other__posts h1 {
+    /* font-size: 50px; */
+    display: flex;
+    align-items: center;
+    margin: 10vh;
+
+}
+
+.blog__post {
+    display: flex;
+    justify-content: center;
+
+    font-family: var(--font-family);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+
+    /* ipad */
+    .blog__body {
+        margin: 0;
+    }
+
+    .blog__sub__dna h1 {
+        margin: 1vh 7vh;
+        margin-bottom: 0vh;
+    }
+
+    .blog__body p {
+        margin: 1vh 7vh;
+        margin-bottom: 5vh;
+        font-size: larger;
+
+
+    }
+
+    .blog__body__img img {
+        /* height: 60vh;
+        width: 60vh; */
+        max-width: 50%;
+        height: auto;
+    }
+    .blog__post {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .blog__body__img img{
+        /* height: 60vh;
+        width: 60vh; */
+        max-width: 50%;
+        height: auto;
+    }
+
+    /* .blog__body tad {
+        margin: 1vh 20vh;
+        margin-bottom: 0;
+    } */
+    
+    .blog__body p {
+        /* margin-left:15vh; */
+        margin-top: 1vh;
+        font-size: larger;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 912px){
+    /* surface pro7 */
+    .blog__body__img img{
+        /* height: 50vh;
+        width: 50vh; */
+        max-width: 50%;
+        height: auto;
+    }
+
+    .blog__body p {
+        /* margin-left:15vh; */
+        margin-top: 1vh;
+        font-size: larger;
+    }
+
+    .other__posts .blog__post {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    /* iphone */
+    .blog__body {
+        margin: 0;
+    }
+
+    .blog__sub__dna h1 {
+        margin: 5vh;
+    }
+
+    .blog__body p {
+        margin: 5vh;
+        margin-top: 1vh;
+    }
+
+    .blog__body__img img {
+        /* height: 50vh;
+        width: 50vh; */
+        max-width: 80%;
+        height: auto;
+    }
+
+    .css-6a0mph{
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog__post {
+        display: inline-block; 
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width:540px) {
+    /* surface duo */
+    .blog__body__img img {
+        max-width: 80%;
+        height: auto;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 490px) {
+
+    /* galaxy fold */
+    .blog__body {
+        margin: 0;
+    }
+
+    .blog__sub__dna h1 {
+        margin: 5vh;
+        margin-bottom: 1vh;
+        font-size: 8vw;
+    }
+
+    .blog__body p {
+        margin: 5vh;
+        margin-top: 1vh;
+    }
+
+    .blog__body__img img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .blog__head h1 {
+        margin-left: 0;
+        font-size: 10vw;
+        display: flex;
+        align-items: center;
+    }
+
+        .other__posts h1{
+        font-size: 10vw;
+
+    }
+    
+}
